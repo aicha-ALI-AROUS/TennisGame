@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  align-items: center;
+}
+.score {
+  border: 3px solid #4caf50;
+  border-radius: 10px;
+  font-size: 50px;
+  color: black;
+  width: 30%;
+  height: 20%;
+  margin-top: 3%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sets {
+  font-size: 50px;
+  color: black;
+  width: 30%;
+  height: 20%;
+  margin-top: 1%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sets table {
+  border-collapse: collapse;
+}
+.sets table td,
+.sets table th {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+.sets table th {
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+
+#score-joueur1 {
+  float: left;
+}
+#score-joueur2 {
+  float: right;
+}
+canvas {
+  background-color: rgb(182, 86, 48);
+  margin-top: 3%;
+}
